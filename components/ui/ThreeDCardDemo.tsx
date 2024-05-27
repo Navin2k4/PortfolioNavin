@@ -9,8 +9,8 @@ import Image from "next/image";
 export function ThreeDCardDemo() {
     
   return (
-    certificates.map((certificate)=>(
-      <CardContainer className="inter-var w-[24rem]">
+    certificates.map((certificate,index)=>(
+      <CardContainer  key={index} className="inter-var w-[24rem]">
         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-violet-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border  ">
           <CardItem
           translateZ="50"
