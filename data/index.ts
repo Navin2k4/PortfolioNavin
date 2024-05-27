@@ -1,19 +1,19 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Certifications", link: "#certifications" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Visit Our Startup Stellar Webtech",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/stellar.png",
     spareImg: "",
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     title: "CGPA Calculator VCET",
     des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
     img: "/cgpa.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
     link: "https://cgpa-calculator-l1l7.onrender.com/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "MERN Stack Blog Website",
     des: "A Blog Website Designed Usign MERN Stack Check out the website and describe your experience of using it.",
     img: "/urbanuplift.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg"],
     link: "https://urban-uplift.onrender.com/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "NIKE Design Site",
     des: "A Visually appealing UI/UX Design made using Tailwind CSS",
     img: "/nike.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://lnkd.in/g2WypRD2",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Weather Forecasting Website",
     des: "Weather Forcasting for a full week which also includes the climatic change graph with the hep of openweather API",
     img: "/weather.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/openweather.svg","/css.svg","/bootstrap.svg"],
     link: "https://navin2k4.github.io/Weather-Website/",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: "ChatVibe",
     des: "An online chatting application made using Django",
     img: "/chatvibe.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/css.svg","/python.svg","/mysql.svg","/django.svg"],
     link: "https://github.com/Navin2k4/ChatVibe",
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
     title: "APJ Abdun Kalam JEE/NEET",
     des: "Designed and developed a Online education portal landing page with pure html and css",
     img: "/apj.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/css.svg","/bootstrap.svg"],
     link: "https://navin2k4.github.io/APJ-NEET-JEE/#SERVICE",
   },
 ];
@@ -123,35 +123,77 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a Web Development Intern at TEACHNOOK, I honed my skills in HTML5, CSS, JavaScript, Bootstrap, API integration, and Node.js. Notably, I developed a weather forecasting website that displays 7-day weather details using the OpenWeather API.",
+    img:'./teachnook_logo.jpeg',
+    name: "TeachNook Banglore",
+    title: "Web Development Intern (Online)",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Android Developer Internship at NSIC Technical Services Centre in Chennai, where I passionately honed my skills in mobile application development. As a Computer Science Engineering student at VCET, I delved deep into the world of Android technologies, exploring Kotlin and Java while also venturing into Flutter to craft robust, user-friendly mobile applications.",
+    img:'./nsic_logo.jpeg',
+    name: "NSIC TamlNadu",
+    title: "Android Application Development Intern",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I remotely worked on diverse projects Utilizing technologies like Django, WebRTC, and ZegoCloud, I enhanced my skills in Python programming, web infrastructure, and explored Node.js. The mentorship from the team at Exposys Data Labs was invaluable, helping me apply theoretical knowledge to real-world scenarios.",
+    img:'./exposys_logo.jpeg',
+    name: "Exposys Data Labs Banglore",
+    title: "FullStack Development Intern (Online)",
   },
 ];
+
+export const certificates = [
+  {
+    title:"NPTEL - Social NetWorks",
+    desc:"Completed the Social Network course by IIT Ropar with an Elite distinction, securing 62%. Worked on Various topic during the certification on networking.",
+    img:"./social_networks_certificate.png",
+    link:'https://www.linkedin.com/posts/navin-kumaran-949568215_social-network-completion-certificate-activity-7134567067092992001-NQK0?utm_source=share&utm_medium=member_desktop'
+  },
+  {
+    title:"NSIC - Application Development",
+    desc:"Successfully completed a two-week 'Industrial Based Android Application Development with IoT' internship Acquired skills in Android Studio and Java.",
+    img:"./nsic_certificate.png",
+    link:"https://www.linkedin.com/posts/navin-kumaran-949568215_internship-completion-certificate-activity-7149283794502438912-DFjS?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    title:"SQL - A Practical Introduction for Querying Databases",
+    desc:"I've completed 'SQL - A Practical Introduction for Querying Databases' by IBM on Coursera with a 98% grade and honors.",
+    img:"./sql_ibm.png",
+    link:"https://coursera.org/share/a529d5bfd64dbf199a81e709870a2435",
+  },
+  {
+    title:"DataBase Management with MySql",
+    desc:"Completed my MySQL Certification course on Coursera by Meta, achieving a grade of 97.5%.",
+    img:"./mysql_meta.png",
+    link:"https://coursera.org/share/beb7f50dbfca7a514d94c67447016be5",
+  },
+  {
+    title:"Crash Course On Python",
+    desc:"Completed the course 'Crash Course On Python' in Coursera provided by Google.",
+    img:"./crash_course_python.png",
+    link:"https://coursera.org/share/2a16a7c67e92f875089e4a4975068e49",
+  },
+  {
+    title:"Back-end Development",
+    desc:"Completed the course 'Introduction to Back-end Development' in Coursera provided by Meta.",
+    img:"./webdevbackend_coursera.png",
+    link:"https://coursera.org/share/ffcfe764460ca430da852df6e72f4cd5",
+  },
+  // {
+  //   title:"Programming fundemental",
+  //   desc:"Completed my Programming fundemental course by Duke University an online course by Coursera.",
+  //   img:"./programming_fundementals_certificate.png",
+  //   link:"https://coursera.org/share/90ba45feaaa463978147ed10ded30593",
+  // },
+  // {
+  //   title:"Web Development",
+  //   desc:"Completed Web development course from Teachnook Ed tech Company and Wissenaire",
+  //   img:"./teachnook_webdev_certificate.png",
+  //   link:"https://www.linkedin.com/posts/navin-kumaran-949568215_web-development-certificate-activity-7044339346841227264-JSjf?utm_source=share&utm_medium=member_desktop",
+  // },
+]
 
 export const companies = [
   {
@@ -198,20 +240,20 @@ export const workExperience = [
     id: 2,
     title: "Web Development Intern @ Exposys Data Labs",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Android Application Developer @ NSIC Chennai",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Lead Developer @ Stellar",
+    desc: "Working as a lead developer @ out startup stellar web technologies .",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -222,15 +264,25 @@ export const socialMedia = [
     id: 1,
     alt:'Git',
     img: "/git.svg",
+    link:"https://github.com/Navin2k4"
   },
   {
     id: 2,
-    alt:'Twitter',
-    img: "/twit.svg",
+    alt:'Hackkerrank',
+    img: "/hackerrank.svg",
+    link:"https://www.hackerrank.com/profile/22cseb48_Navin"
+
   },
   {
     id: 3,
     alt:'Linkedin',
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/navin-kumaran-949568215/"
+  },
+  {
+    id: 4,
+    alt:'Instagram',
+    img: "/instagram.svg",
+    link:"https://www.instagram.com/navin_2k4/"
   },
 ];

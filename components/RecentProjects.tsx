@@ -54,6 +54,7 @@ const RecentProjects = () => {
             </div>
         ))}
       </div>
+
     </div>
   )
 }

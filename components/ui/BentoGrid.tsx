@@ -8,6 +8,7 @@ import Lottie from "react-lottie";
 import animationData from '@/data/confitti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import {AiOutlineSend} from "react-icons/ai";
 export const BentoGrid = ({
   className,
   children,
@@ -151,7 +152,6 @@ const handleCopy = ()=>{
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
@@ -164,6 +164,28 @@ const handleCopy = ()=>{
               />
             </div>
           )}
+
+         {id === 1 && (
+            <div className="mt-5 relative">
+              <div
+                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                  }`}
+              >
+              </div>
+              
+<a href="https://sites.google.com/view/stellarvcet/home">
+  <MagicButton
+    title={"Visit Stellar"}
+    icon={<AiOutlineSend />}
+    position="right"
+    otherclasses="!bg-[#161A31]"
+  />
+</a>
+
+              
+            </div>
+          )}
+           
         </div>
         </div>
 

@@ -7,48 +7,69 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 export function Approach() {
   return (
     <section className="w-full py-29">
-    <h1 className="heading">
-        My
-        <span className="text-purple"> Approach</span>
-      </h1>
+  <h1 className="heading">
+    My
+    <span className="text-purple"> Approach</span>
+  </h1>
 
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card 
-            title="Planning and strategy" 
-            icon={<AceternityIcon order="Phase 1" />}
-            description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
-            >
-            
-          <CanvasRevealEffect
-            animationSpeed={5}
-            containerClassName="bg-emerald-900"
-          />
-        </Card>
-        <Card 
-            title="Development & Progress Update" 
-            icon={<AceternityIcon order="Phase 2"/>}
-            description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.">
-          <CanvasRevealEffect
-            animationSpeed={5}
-            containerClassName="bg-red-500"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-          />
-        </Card>
-        <Card 
-            title="Development & Launch" 
-            icon={<AceternityIcon order="Phase 3"/>}
-            description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.">
-          <CanvasRevealEffect
-            animationSpeed={5}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
-      </div>
-    </section>
+  <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+    <Card 
+        title="Planning and Analysis" 
+        icon={<AceternityIcon order="Plan" />}
+        description="This stage involves defining the purpose, goals, and target audience of the website, as well as gathering requirements from stakeholders. Research on competitors and industry trends is conducted to inform decision-making."
+        >
+        
+      <CanvasRevealEffect
+        animationSpeed={5}
+        containerClassName="bg-[#4CAF50]"// 4CAF50
+        colors={[
+          [125, 211, 252], 
+          [166, 195, 215], 
+        ]}
+      />
+    </Card>
+    <Card 
+        title="Design and Development" 
+        icon={<AceternityIcon order="Design"/>}
+        description="In this phase, the website's visual design, layout, and user interface are created based on the gathered requirements. Front-end development involves coding the visual elements using HTML, CSS, and JavaScript, while back-end development involves server-side scripting, database integration, and other technical tasks">
+      <CanvasRevealEffect
+        animationSpeed={5}
+        containerClassName="bg-[#F4A460]"
+        colors={[
+          [236, 72, 153],  
+          [232, 121, 249], 
+        ]}
+      />
+    </Card>
+    <Card 
+        title="Content Creation and Integration" 
+        icon={<AceternityIcon order="Content"/>}
+        description="Content, including text, images, videos, and other multimedia elements, is created and integrated into the website. This content is optimized for search engines and user experience.">
+      <CanvasRevealEffect
+        animationSpeed={5}
+        containerClassName="bg-[#FF4500]"
+        colors={[
+          [125, 211, 252],
+          [166, 195, 215], 
+        ]}
+      />
+    </Card>
+    <Card 
+        title="Testing, Deployment, and Maintenance" 
+        icon={<AceternityIcon order="Thrive"/>}
+        description="The website is thoroughly tested to identify and fix any bugs or errors. Once approved, it is deployed to the live server. Regular maintenance and updates are performed to ensure the website remains functional, secure, and up-to-date">
+      <CanvasRevealEffect
+        animationSpeed={5}
+        containerClassName="bg-[#8A2BE2]" //8A2BE2
+        colors={[
+          [125, 211, 252], 
+          [166, 195, 215], 
+        ]}
+      />
+    </Card>
+  </div>
+</section>
+
   );
 }
 

@@ -23,6 +23,9 @@ const Hero = () => {
             <TextGenerateEffect 
               className='text-center text-[40px] md:text-5xl lg:text-6xl'
               words='Hi There! I&apos;m Navin Kumaran' />
+          <h2 className='uppercase tracking-widest text-md text-center text-blue-100 '>
+              Velammal College of Engineering and Technology, Madurai
+            </h2>
         <a href='#about'>
             <MagicButton 
             title='Show my works'
