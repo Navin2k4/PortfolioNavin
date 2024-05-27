@@ -148,49 +148,49 @@ export const certificates = [
   {
     title:"NPTEL - Social NetWorks",
     desc:"Completed the Social Network course by IIT Ropar with an Elite distinction, securing 62%. Worked on Various topic during the certification on networking.",
-    img:"./social_networks_certificate.png",
+    img:"/social_networks_certificate.png",
     link:'https://www.linkedin.com/posts/navin-kumaran-949568215_social-network-completion-certificate-activity-7134567067092992001-NQK0?utm_source=share&utm_medium=member_desktop'
   },
   {
     title:"NSIC - Application Development",
     desc:"Successfully completed a two-week 'Industrial Based Android Application Development with IoT' internship Acquired skills in Android Studio and Java.",
-    img:"./nsic_certificate.png",
+    img:"/nsic_certificate.png",
     link:"https://www.linkedin.com/posts/navin-kumaran-949568215_internship-completion-certificate-activity-7149283794502438912-DFjS?utm_source=share&utm_medium=member_desktop",
   },
   {
     title:"SQL - A Practical Introduction for Querying Databases",
     desc:"I've completed 'SQL - A Practical Introduction for Querying Databases' by IBM on Coursera with a 98% grade and honors.",
-    img:"./sql_ibm.png",
+    img:"/sql_ibm.png",
     link:"https://coursera.org/share/a529d5bfd64dbf199a81e709870a2435",
   },
   {
     title:"DataBase Management with MySql",
     desc:"Completed my MySQL Certification course on Coursera by Meta, achieving a grade of 97.5%.",
-    img:"./mysql_meta.png",
+    img:"/mysql_meta.png",
     link:"https://coursera.org/share/beb7f50dbfca7a514d94c67447016be5",
   },
   {
     title:"Crash Course On Python",
     desc:"Completed the course 'Crash Course On Python' in Coursera provided by Google.",
-    img:"./crash_course_python.png",
+    img:"/crash_course_python.png",
     link:"https://coursera.org/share/2a16a7c67e92f875089e4a4975068e49",
   },
   {
     title:"Back-end Development",
     desc:"Completed the course 'Introduction to Back-end Development' in Coursera provided by Meta.",
-    img:"./webdevbackend_coursera.png",
+    img:"/webdevbackend_coursera.png",
     link:"https://coursera.org/share/ffcfe764460ca430da852df6e72f4cd5",
   },
   // {
   //   title:"Programming fundemental",
   //   desc:"Completed my Programming fundemental course by Duke University an online course by Coursera.",
-  //   img:"./programming_fundementals_certificate.png",
+  //   img:"/programming_fundementals_certificate.png",
   //   link:"https://coursera.org/share/90ba45feaaa463978147ed10ded30593",
   // },
   // {
   //   title:"Web Development",
   //   desc:"Completed Web development course from Teachnook Ed tech Company and Wissenaire",
-  //   img:"./teachnook_webdev_certificate.png",
+  //   img:"/teachnook_webdev_certificate.png",
   //   link:"https://www.linkedin.com/posts/navin-kumaran-949568215_web-development-certificate-activity-7044339346841227264-JSjf?utm_source=share&utm_medium=member_desktop",
   // },
 ]
