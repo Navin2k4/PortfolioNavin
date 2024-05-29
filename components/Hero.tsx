@@ -3,6 +3,8 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { IoDocumentAttachOutline } from "react-icons/io5";
+
 
 const Hero = () => {
   return (
@@ -26,13 +28,22 @@ const Hero = () => {
           <h2 className='uppercase tracking-widest text-md text-center text-blue-100 mb-5'>
               Velammal College of Engineering and Technology, Madurai
             </h2>
-        <a href='#about'>
-            <MagicButton 
-            title='Show my works'
-            icon={<FaLocationArrow/>}
-            position='right'
-            />
-            </a>
+            <div className='flex gap-4 flex-col-reverse sm:flex-row'>
+              <a href='#about'>
+                  <MagicButton 
+                  title='Show my works'
+                  icon={<FaLocationArrow/>}
+                  position='right'
+                  />
+              </a>
+              <a target='_blank' href='https://drive.google.com/file/d/101_xcdPI7mkB6ZJopX_NGKXOYAfbPz2f/view?usp=sharing'>
+                  <MagicButton 
+                  title='View My resume'
+                  icon={<IoDocumentAttachOutline/>}
+                  position='right'
+                  />
+              </a>
+          </div>
         </div>
     </div>
     </div>

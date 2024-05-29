@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "CGPA Calculator VCET",
-    des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
-    img: "/cgpa.png",
-    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
-    link: "https://cgpa-calculator-l1l7.onrender.com/",
-  },
-  {
-    id: 2,
     title: "MERN Stack Blog Website",
     des: "A Blog Website Designed Usign MERN Stack Check out the website and describe your experience of using it.",
     img: "/urbanuplift.png",
     iconLists: ["/re.svg", "/tail.svg","/mongodb.svg"],
     link: "https://urban-uplift.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "CGPA Calculator VCET",
+    des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
+    img: "/cgpa.png",
+    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
+    link: "https://cgpa-calculator-l1l7.onrender.com/",
   },
   {
     id: 3,
