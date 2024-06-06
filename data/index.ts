@@ -277,7 +277,7 @@ export const socialMedia = [
     id: 3,
     alt:'Linkedin',
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/navin-kumaran-949568215/"
+    link:"https://www.linkedin.com/in/navinkumaran2004/"
   },
   {
     id: 4,

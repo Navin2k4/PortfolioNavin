@@ -36,7 +36,7 @@ const Hero = () => {
                   position='right'
                   />
               </a>
-              <a target='_blank' href='https://drive.google.com/file/d/101_xcdPI7mkB6ZJopX_NGKXOYAfbPz2f/view?usp=sharing'>
+              <a target='_blank' href='https://drive.google.com/file/d/1MZ813DG-xIg6fL_o8XwgjM_qZVMgPViD/view?usp=sharing'>
                   <MagicButton 
                   title='View My resume'
                   icon={<IoDocumentAttachOutline/>}

@@ -16,7 +16,7 @@ export function Approach() {
     <Card 
         title="Planning and Analysis" 
         icon={<AceternityIcon order="Plan" />}
-        description="This stage involves defining the purpose, goals, and target audience of the website, as well as gathering requirements from stakeholders. Research on competitors and industry trends is conducted to inform decision-making."
+        description="This stage involves defining the purpose, goals, and target audience of the website, as well as gathering requirements from stakeholders."
         >
         
       <CanvasRevealEffect
@@ -31,7 +31,7 @@ export function Approach() {
     <Card 
         title="Design and Development" 
         icon={<AceternityIcon order="Design"/>}
-        description="In this phase, the website's visual design, layout, and user interface are created based on the gathered requirements. Front-end development involves coding the visual elements using HTML, CSS, and JavaScript, while back-end development involves server-side scripting, database integration, and other technical tasks">
+        description="In this phase, the website's visual design, layout, and user interface are created based on the gathered requirements.">
       <CanvasRevealEffect
         animationSpeed={5}
         containerClassName="bg-[#F4A460]"
@@ -57,7 +57,7 @@ export function Approach() {
     <Card 
         title="Testing, Deployment, and Maintenance" 
         icon={<AceternityIcon order="Thrive"/>}
-        description="The website is thoroughly tested to identify and fix any bugs or errors. Once approved, it is deployed to the live server. Regular maintenance and updates are performed to ensure the website remains functional, secure, and up-to-date">
+        description="The website is thoroughly tested to identify and fix any bugs or errors. Once approved, it is deployed to the live server.">
       <CanvasRevealEffect
         animationSpeed={5}
         containerClassName="bg-[#8A2BE2]" //8A2BE2
@@ -116,7 +116,7 @@ const Card = ({
         <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
           {title}
         </h2>
-        <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
+        <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-justify"
         style={{color:'#e4ecff'}}>
         {description}
         </h2>

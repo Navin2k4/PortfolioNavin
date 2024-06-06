@@ -17,6 +17,7 @@ const RecentProjects = () => {
                         <div className='relative w-full h-full overflow-hidden rounded-3xl bg-[#25283e]'>
                             <img 
                             src='/bg.png'
+                            alt='background'
                             altbg-img/>
                         </div>
                         <img 
@@ -37,10 +38,11 @@ const RecentProjects = () => {
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
+                        transform: `translateX(-${5 * index + 2}px))`,
                       }}
                     >
                                     <img
+                                    alt='icons'
                                     src={icon} className='p-2'/>
                                 </div>
                             ))}
