@@ -7,7 +7,7 @@ export const InfiniteMovingCards = ({
   items,
   direction = "left",
   speed = "fast",
-  pauseOnHover = true,
+  pauseOnHover = false,
   className,
 }: {
   items: {
@@ -46,7 +46,7 @@ export const InfiniteMovingCards = ({
   }
   const getDirection = () => {
     if (containerRef.current) {
-      if (direction === "left") {
+      if (direction === "right") {
         containerRef.current.style.setProperty(
           "--animation-direction",
           "forwards"

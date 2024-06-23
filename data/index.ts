@@ -231,31 +231,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Student Intern @ TVS Sensing Solution",
+    desc: "Intern at generating automation using UIpath and working on Full Stack Development.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
     title: "Web Development Intern @ Teachnook",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Web Development Intern @ Exposys Data Labs",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Android Application Developer @ NSIC Chennai",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Developer @ Stellar",
-    desc: "Working as a lead developer @ out startup stellar web technologies .",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
