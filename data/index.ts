@@ -72,14 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "MERN Stack Blog Website",
+    title: "Event Horizon",
+    des: "A Comprehensive event booking, creation, and publishing. Developed with Next.js 14, the app ensures robust server-side rendering while incorporating essential client-side components.",
+    img: "/eventhorizon.png",
+    iconLists: ["/next.svg","/stripe.svg", "/tail.svg","/mongodb.svg"],
+    link: "https://evently-beige-eight.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Urban Uplift",
     des: "A Blog Website Designed Usign MERN Stack Check out the website and describe your experience of using it.",
     img: "/urbanuplift.png",
     iconLists: ["/re.svg", "/tail.svg","/mongodb.svg"],
     link: "https://urban-uplift.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "CGPA Calculator VCET",
     des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
     img: "/cgpa.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://cgpa-calculator-l1l7.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "NIKE Design Site",
     des: "A Visually appealing UI/UX Design made using Tailwind CSS",
     img: "/nike.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://lnkd.in/g2WypRD2",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather Forecasting Website",
     des: "Weather Forcasting for a full week which also includes the climatic change graph with the hep of openweather API",
     img: "/weather.png",
@@ -103,7 +111,7 @@ export const projects = [
     link: "https://navin2k4.github.io/Weather-Website/",
   },
   {
-    id: 5,
+    id: 6,
     title: "ChatVibe",
     des: "An online chatting application made using Django",
     img: "/chatvibe.png",
@@ -111,7 +119,7 @@ export const projects = [
     link: "https://github.com/Navin2k4/ChatVibe",
   },
   {
-    id: 6,
+    id: 7,
     title: "APJ Abdun Kalam JEE/NEET",
     des: "Designed and developed a Online education portal landing page with pure html and css",
     img: "/apj.png",
@@ -181,18 +189,18 @@ export const certificates = [
     img:"/webdevbackend_coursera.png",
     link:"https://coursera.org/share/ffcfe764460ca430da852df6e72f4cd5",
   },
-  // {
-  //   title:"Programming fundemental",
-  //   desc:"Completed my Programming fundemental course by Duke University an online course by Coursera.",
-  //   img:"/programming_fundementals_certificate.png",
-  //   link:"https://coursera.org/share/90ba45feaaa463978147ed10ded30593",
-  // },
-  // {
-  //   title:"Web Development",
-  //   desc:"Completed Web development course from Teachnook Ed tech Company and Wissenaire",
-  //   img:"/teachnook_webdev_certificate.png",
-  //   link:"https://www.linkedin.com/posts/navin-kumaran-949568215_web-development-certificate-activity-7044339346841227264-JSjf?utm_source=share&utm_medium=member_desktop",
-  // },
+  {
+    title:"Programming fundemental",
+    desc:"Completed my Programming fundemental course by Duke University an online course by Coursera.",
+    img:"/programming_fundementals_certificate.png",
+    link:"https://coursera.org/share/90ba45feaaa463978147ed10ded30593",
+  },
+  {
+    title:"Web Development",
+    desc:"Completed Web development course from Teachnook Ed tech Company and Wissenaire",
+    img:"/teachnook_webdev_certificate.png",
+    link:"https://www.linkedin.com/posts/navin-kumaran-949568215_web-development-certificate-activity-7044339346841227264-JSjf?utm_source=share&utm_medium=member_desktop",
+  },
 ]
 
 export const companies = [

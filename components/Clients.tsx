@@ -5,6 +5,7 @@ import { ThreeDCardDemo } from './ui/ThreeDCardDemo';
 
 import { testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
+import { BackgroundBoxesDemo } from "./BackgroundBoxDemo";
 
 const Clients = () => {
   return (
