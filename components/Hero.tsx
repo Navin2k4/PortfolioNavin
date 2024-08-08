@@ -29,9 +29,9 @@ const Hero = () => {
               Velammal College of Engineering and Technology, Madurai
             </h2>
             <div className='flex gap-4 flex-col-reverse sm:flex-row'>
-              <a href='#about'>
+              <a target='_blank' href='https://www.linkedin.com/in/navinkumaran2004'>
                   <MagicButton 
-                  title='Show my works'
+                  title='Linkedin'
                   icon={<FaLocationArrow/>}
                   position='right'
                   />

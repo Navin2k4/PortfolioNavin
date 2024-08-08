@@ -71,6 +71,22 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 3,
+    title: "Leave Management System VCET",
+    des: "The Leave Appication system developed with the MERN Stack, simplifies applying and approval of leaves with mobile optimization and MongoDB for efficient data handling.",
+    img: "/LeaveManagement.png",
+    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
+    link: "https://leavemanagementsystemvcetmadurai.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "CGPA Calculator VCET",
+    des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
+    img: "/cgpa.png",
+    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
+    link: "https://cgpa-calculator-l1l7.onrender.com/",
+  },
+  {
     id: 1,
     title: "Event Horizon",
     des: "A Comprehensive event booking, creation, and publishing. Developed with Next.js 14, the app ensures robust server-side rendering while incorporating essential client-side components.",
@@ -85,14 +101,6 @@ export const projects = [
     img: "/urbanuplift.png",
     iconLists: ["/re.svg", "/tail.svg","/mongodb.svg"],
     link: "https://urban-uplift.onrender.com/",
-  },
-  {
-    id: 3,
-    title: "CGPA Calculator VCET",
-    des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
-    img: "/cgpa.png",
-    iconLists: ["/re.svg", "/tail.svg","/mongodb.svg","/javascript.svg"],
-    link: "https://cgpa-calculator-l1l7.onrender.com/",
   },
   {
     id: 4,
@@ -239,8 +247,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Student Intern @ TVS Sensing Solution",
-    desc: "Intern at generating automation using UIpath and working on Full Stack Development.",
+    title: "Inhouse Intern At Velammal College of Engineering and Technology",
+    desc: "Worked on building Leave Management System Web Application.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
