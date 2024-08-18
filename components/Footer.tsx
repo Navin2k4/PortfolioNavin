@@ -39,6 +39,7 @@ const Footer = () => {
                   alt={profile.alt}
                   height={20}
                   width={20}
+                    loading="lazy"
                 />
               </a>
             </div>
