@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building CGPA Calculator For VCET",
-    description: "CGPA Calculator",
+    title: "Working on Freelancing Projects",
+    description: "FreeLancing",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Skip the Doctor",
+    des: "An Doctor Appointment Booking System that simplifies the process of booking and managing appointments with a user-friendly interface.",
+    img: "/skipthedoctor.png",
+    iconLists: ["/next.svg","/stripe.svg", "/tail.svg"],
+    link: "https://www.skipthedoctor.ca/",
+  },
+  {
+    id: 2,
     title: "Leave Management System VCET",
     des: "The Leave Appication system developed with the MERN Stack, simplifies applying and approval of leaves with mobile optimization and MongoDB for efficient data handling.",
     img: "/LeaveManagement.png",
@@ -79,7 +87,7 @@ export const projects = [
     link: "https://leavemanagementsystemvcetmadurai.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "CGPA Calculator VCET",
     des: "The CGPA calculator developed with the MERN Stack, simplifies academic tracking with mobile optimization and MongoDB for efficient data handling.",
     img: "/cgpa.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://cgpa-calculator-l1l7.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Event Horizon",
     des: "A Comprehensive event booking, creation, and publishing. Developed with Next.js 14, the app ensures robust server-side rendering while incorporating essential client-side components.",
     img: "/eventhorizon.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://evently-beige-eight.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Urban Uplift",
     des: "A Blog Website Designed Usign MERN Stack Check out the website and describe your experience of using it.",
     img: "/urbanuplift.png",
@@ -103,7 +111,7 @@ export const projects = [
     link: "https://urban-uplift.onrender.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "NIKE Design Site",
     des: "A Visually appealing UI/UX Design made using Tailwind CSS",
     img: "/nike.png",
@@ -111,7 +119,7 @@ export const projects = [
     link: "https://lnkd.in/g2WypRD2",
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather Forecasting Website",
     des: "Weather Forcasting for a full week which also includes the climatic change graph with the hep of openweather API",
     img: "/weather.png",
@@ -119,7 +127,7 @@ export const projects = [
     link: "https://navin2k4.github.io/Weather-Website/",
   },
   {
-    id: 7,
+    id: 8,
     title: "ChatVibe",
     des: "An online chatting application made using Django",
     img: "/chatvibe.png",
@@ -127,7 +135,7 @@ export const projects = [
     link: "https://github.com/Navin2k4/ChatVibe",
   },
   {
-    id: 8,
+    id: 9,
     title: "APJ Abdun Kalam JEE/NEET",
     des: "Designed and developed a Online education portal landing page with pure html and css",
     img: "/apj.png",
